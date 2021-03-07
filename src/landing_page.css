@@ -67,7 +67,7 @@
 
 .main_body {
   background-color: #F0F0F0;
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -82,6 +82,7 @@
 }
 
 .footer_container{
+  border: solid 1px #ff0000;
   height: 50px;
   background-color: #ffffff;
   display: flex;
@@ -107,17 +108,4 @@
 }
 .Datenschutz {
   display: flex;
-}
-
-klicken_btn:link {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-}
-
-klicken_btn:visited {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
 }
