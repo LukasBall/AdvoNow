@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+
+  background: rgba(72, 158, 153, 0.75);
+
+  font-family:  PT Sans;
+  line-height: 18px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+
+
+.header {
+  margin-top: 7px;
+  margin-left: 10px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_btn {
+  width: 280px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+
+.about,
+.services,
+.contact {
+  color: #555555;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+.main_body {
+  background-color: #F0F0F0;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.decision_tree {
+  border: solid 1px #000000;
+  height: 550px;
+  width: 700px;
+  background: #add8e6;
+  display: flex;
+}
+
+.footer_container{
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer_links {
+  width: 500px;
+  display:flex;
+  justify-content: space-between;
+
+  color: #555555;
+  font-family: PT Sans;
+  font-size: 14px;
+}
+.AGB {
+  display: flex;
+}
+.Impressum {
+  display: flex;
+}
+.Datenschutz {
+  display: flex;
+}
+
+klicken_btn:link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+
+klicken_btn:visited {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
